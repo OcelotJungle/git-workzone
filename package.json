@@ -1,6 +1,6 @@
 {
   "name": "git-workzone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Multiple jointed git worktrees manager",
   "author": "OcelotJungle",
   "license": "GPL-3.0-only",
@@ -8,6 +8,9 @@
   "type": "module",
   "bin": {
     "git-workzone": "dist/index.mjs"
+  },
+  "scripts": {
+    "build": "tsup"
   },
   "dependencies": {
     "commander": "^12.1.0",
